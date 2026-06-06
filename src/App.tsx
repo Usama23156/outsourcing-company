@@ -1,4 +1,5 @@
 import { ContactSection } from "@/components/ContactSection";
+import { Footer } from "@/components/Footer";
 import { HeroSection } from "@/components/HeroSection";
 import { Navbar } from "@/components/Navbar";
 import { ServicesSection } from "@/components/ServicesSection";
@@ -12,6 +13,7 @@ function App() {
       <ServicesSection />
       <WhyChooseUsSection />
       <ContactSection />
+      <Footer />
     </>
   );
 }
