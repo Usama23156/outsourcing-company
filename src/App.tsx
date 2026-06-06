@@ -1,14 +1,7 @@
-import * as React from "react";
+import { HeroSection } from "@/components/HeroSection";
 
 function App() {
-  return (
-    <>
-
-
-   
-    
-    </>
-  );
+  return <HeroSection />;
 }
 
 export default App;
