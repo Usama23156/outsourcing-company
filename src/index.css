@@ -1,4 +1,24 @@
+@import "@fontsource-variable/geist";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    font-family: "Geist Variable", Inter, ui-sans-serif, system-ui, sans-serif;
+    color: #f8fafc;
+    background: #070a18;
+    font-synthesis: none;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    background: #070a18;
+  }
+}
