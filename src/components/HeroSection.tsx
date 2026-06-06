@@ -40,7 +40,8 @@ export function HeroSection() {
             transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
             className="max-w-4xl text-balance text-5xl font-semibold leading-[0.95] tracking-[-0.06em] text-white sm:text-6xl lg:text-7xl"
           >
-            Scale Your Team Without Hiring Delays
+            We Help Businesses Generate More Leads, Build Better Websites, and
+            Scale Faster
           </motion.h1>
 
           <motion.p
