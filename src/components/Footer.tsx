@@ -34,7 +34,7 @@ export function Footer() {
           variants={columnMotion}
           transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
         >
-          <Logo className="h-11 w-[158px] text-white" />
+          <Logo className="h-11 w-11" variant="dark" />
           <p className="mt-6 max-w-sm text-base leading-7 text-slate-300">
             Helping businesses grow through lead generation, landing pages, web
             development, and IT solutions.

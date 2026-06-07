@@ -27,7 +27,7 @@ export function Navbar() {
         }`}
       >
         <div className="flex items-center">
-          <Logo className="h-10 w-[144px] text-white" />
+          <Logo className="h-10 w-10" variant="dark" />
         </div>
 
         <motion.button
